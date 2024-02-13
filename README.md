@@ -2,9 +2,9 @@
 
 Module 21 Challenge for Vanderbilt Data Analytics February 2024
 
-There are 3 files located in this repository, as follows:
+There are 5 files located in this repository, as follows:
 
-This README file, AlphabetSoupCharity.ipynb, and AlphabetSoupCharity_Optimization.ipynb.
+This README file, AlphabetSoupCharity.ipynb, AlphabetSoupCharity.h5, AlphabetSoupCharity_Optimization.ipynb, and AlphabetSoupCharity_Optimization.h5.
 
 Special Recognition: Ahmad Mousa is as passionate and caring as he is knowledgeable, and Joshua Steier never hesitates to help walk us through challenges. 
 
