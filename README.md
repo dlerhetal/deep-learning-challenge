@@ -30,10 +30,10 @@ The Google Drive location for this file is as follows: https://drive.google.com/
    ### Were you able to achieve the target model performance?
    The original model took 3 minutes and 37 seconds but fell just shy of 75% accuracy with a final score rounded up to 73% while the optimized model succeeded with a complete runtime of only 50 seconds and a boosted 76% accuracy.
    ### What steps did you take in your attempts to increase model performance?
-   Time and energy were not optimized in the first model for the following reasons: 
-   **Studied** STATUS and SPECIAL_CONSIDERATIONS for clues when they only offered significance for 35 fields total between them both. 
-   **Ignored** one legitimate feature (NAME), not considering the impact duplicate names could have on an application's success.
-   **failed** to optimize another (ASK_AMT). 23,917 of the 34,299 records asked for what is likely the base amount: 5,000. All other amount are marked "other".
+   Time and energy were not optimized in the first model for the following reasons:  
+   **Studied** STATUS and SPECIAL_CONSIDERATIONS for clues when they only offered significance for 35 fields total between them both.  
+   **Ignored** one legitimate feature (NAME), not considering the impact duplicate names could have on an application's success.  
+   **failed** to optimize another (ASK_AMT). 23,917 of the 34,299 records asked for what is likely the base amount: 5,000. All other amount are marked "other".  
    **Combining** these 3 observations, I dropped EIN, STATUS, and SPECIAL_CONSIDERATIONS, optimized NAME, APPLICATION_TYPE, CLASSIFICATION, INCOME_AMT, and ASK_AMT to increased accuracy while reducing the neurons, layers, and epochs to the lowest possible numbers for the leanest and most efficient successful result.
 # Summary
   **When** results are only good 3 out of 4 times, we can safely suspect they have not been manipulated; however, we do want to draw out every byte of significance we can find in the data. A model should exist that loops through classification and numerical data to find corelations between our features and targets that our human eyes may have missed. Until then, a lasso regression might possibly have been able to do a better job of optimizing our data for analysis, but we would still have been relying on a black box algorithm. At the end of a study, we want to be able to understand our results even more than we believe them.
