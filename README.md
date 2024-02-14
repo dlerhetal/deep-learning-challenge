@@ -12,7 +12,8 @@ I always do participate in office hours and study groups while working on projec
 
 The Google Drive location for this file is as follows: https://drive.google.com/drive/folders/1AHr53s-y9UVh--CbluDeScYEORQ7PSOu?usp=sharing⋅⋅
 
-# Overview **The purpose of the analysis** is to study a database of grant applications to predict which ones might be successful.
+# Overview 
+  **The purpose of the analysis** is to study a database of grant applications to predict which ones might be successful.
 # Results
   ## Data Preprocessing 
    **charity_data.csv** contains 34,299 records with 12 fields: EIN, NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, and IS_SUCCESSFUL. 
